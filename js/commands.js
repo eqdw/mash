@@ -18,15 +18,15 @@ var COMMANDS =
     {
       name:  "open",
       about: "access the old pages",
-      execute: function(arguments){
-        if(arguments[0] == "landing"){
-          window.location = "http://eqdw.net/landing.html";
-        } else if(arguments[0] == "personal"){
-          window.location = "http://eqdw.net/personal.html";
-        } else if(arguments[0] == "cat"){
-          window.location = "http://eqdw.net/cat.jpg";
-        } else if(arguments[0] == "degree"){
-          window.location = "http://eqdw.net/degree.jpg";
+      execute: function(args){
+        if(args == "landing"){
+          window.location = "/landing.html";
+        } else if(args == "personal"){
+          window.location = "/personal.html";
+        } else if(args == "cat"){
+          window.location = "/cat.jpg";
+        } else if(args == "degree"){
+          window.location = "/degree.jpg";
         }
       }
     },
