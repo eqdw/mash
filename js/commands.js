@@ -17,7 +17,7 @@ var COMMANDS =
 	[ 
     {
       name:  "open",
-      about: "access the old pages",
+      about: "access the old pages: landing, personal, cat, degree, resume",
       execute: function(args){
         if(args == "landing"){
           window.location = "/landing.html";
@@ -27,6 +27,8 @@ var COMMANDS =
           window.location = "/cat.jpg";
         } else if(args == "degree"){
           window.location = "/degree.jpg";
+        } else if(args == "resume"){
+          window.location = "/resume.pdf";
         }
       }
     },
