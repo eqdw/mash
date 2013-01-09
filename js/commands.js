@@ -91,7 +91,7 @@ var COMMANDS =
 				{
 					io.output.write("Welcome, " + name);
 					userName = name;
-					preCommandString = "con.rs:~ " + userName + "$ ";
+					preCommandString = "eqdw.net:~ " + userName + "$ ";
 					$.cookie("user", userName);
 					input.trigger('keyup');
 				}
@@ -111,8 +111,8 @@ var COMMANDS =
 			execute: function()
 			{				
 				var link = $("<a></a>");
-				link.attr("href", "ma"+"ilto:m"+"@t"+"t.con.rs");
-				link.html("m"+"@t"+"t.con.rs");
+				link.attr("href", "ma"+"ilto:rz@eqdw.net");
+				link.html("rz@eqdw.net");
 				io.output.writeElement(link);
 			}
 		},
