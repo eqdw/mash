@@ -23,6 +23,10 @@ var COMMANDS =
           window.location = "http://eqdw.net/landing.html";
         } else if(arguments[0] == "personal"){
           window.location = "http://eqdw.net/personal.html";
+        } else if(arguments[0] == "cat"){
+          window.location = "http://eqdw.net/cat.jpg";
+        } else if(arguments[0] == "degree"){
+          window.location = "http://eqdw.net/degree.jpg";
         }
       }
     },
