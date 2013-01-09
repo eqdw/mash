@@ -135,7 +135,7 @@ var COMMANDS =
 				};
 				$.ajax(
 				{
-					url: "backend/wall.php",
+					url: "mash/backend/wall.php",
 					data: data
 				});
 			}
