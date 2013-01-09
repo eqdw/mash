@@ -51,7 +51,7 @@ var io =
 		{
 			input = $("#" + input_id);
 			
-			preCommandString = "con.rs:~ " + userName + "$ ";
+			preCommandString = "eqdw.net:~ " + userName + "$ ";
 			
 			input.focus();	
 			io.input.prompt(preCommandString);
