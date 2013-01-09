@@ -18,8 +18,8 @@ TAB COMPLETION WOULD BE COOL....
 
 var fs = 
 {
-	pwd: "/home/matt/",
-	homedir: "/home/matt/",
+	pwd: "/Users/eqdw/",
+	homedir: "/Users/eqdw/",
 	cd: function(path)
 	{
 
