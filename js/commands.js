@@ -15,6 +15,17 @@ var COMMANDS =
 {
 	raw: 
 	[ 
+    {
+      name:  "open",
+      about: "access the old pages",
+      execute: function(arguments){
+        if(arguments[0] == "landing"){
+          window.location = "http://eqdw.net/landing.html";
+        } else if(arguments[0] == "personal"){
+          window.location = "http://eqdw.net/personal.html";
+        }
+      }
+    },
 		{
 			name: "help",
 			about: "this help menu",
